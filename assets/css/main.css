@@ -1,0 +1,22 @@
+.padre {
+    background: pink;
+    border: 10px blue solid;
+    border-color: blue;
+    height: 110px;
+    width: 580px;
+    position: relative;
+    box-sizing: border-box;
+    margin:0 auto;
+}
+
+.hijo {
+    background: #fff;
+    border-style: dotted;
+    width: 520px;
+    height: 30px;
+    position: absolute;
+    box-sizing: border-box;
+    text-align: center;
+    top: 30px;
+    left: 20px;
+}
